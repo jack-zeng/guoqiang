@@ -1,0 +1,54 @@
+
+.enterprise_banner{width:100%; display: block; margin-top:108px;}
+
+.enterprise_nav{height:60px;border-bottom:1px solid #ccc; line-height:60px;background:#fff;padding:0;}
+.enterprise_nav li{width:25%;float:left;text-align: center;height:100%;position:relative;}
+.enterprise_nav li a{font-size:24px;color:#000;display:block; height:100%;}
+.enterprise_nav li a:before{height:4px; background:#007eff;
+                          position:absolute;bottom:-4px;content:"";
+                          left:50%;right:50%;transition:all .5s;-webkit-transition:all .5s;}
+.enterprise_nav li a:hover:before{left:0;right:0}                          
+.enterprise_nav li a:hover{background:#ccc ;
+                            color:#fff;}
+.enterprise_nav li a.selt{background:#ccc ;
+                            color:#fff;}
+.enterprise_nav li a.selt:before{height:4px; background:#007eff;
+                          position:absolute;bottom:-4px;content:"";
+                          width:100%;left:0;}
+.company{margin-top:30px}
+.culture ul{overflow: hidden;padding:0;}
+.culture ul li{float:left;zoom:1;width:250px; position:relative; height:250px;margin:0 10px;overflow:hidden;cursor:pointer;}
+.culture ul li img{width:250px;height:250px;} 
+.culture ul li.cutRight{width:580px;}
+.culture ul li.cutRight .cultureCont{left:285px;}
+.cultureImg{float:left;z-index:10;position: relative;}
+.cultureCont{width:300px;position:absolute;height:100%;left:0;}
+.cultureCont button{position:absolute; bottom:10px;width:100px;} 
+.cultureCont p{color:#999;} 
+.cultureP{margin-top:30px} 
+
+
+.teamCC,.staffCC{margin-bottom:20px;}
+.teamList{background:#fff;position:relative;overflow: hidden;max-width:360px;margin:0 auto;height:240px;}
+.teamList img{max-width: 100%; top:0; position: absolute;height:100%;z-index:5;transition:all .3s;display:block;-webkit-transition:all .5s;}
+.teamList:hover img{top:-50px;}
+.teamList h2{position:absolute; bottom:5px;text-align: center;width:100%;} 
+
+
+.staffList{max-width:360px;margin:0 auto;height:240px;position:relative;overflow: hidden;}
+.staffList img{max-width: 100%;height:100%;}
+.staffMask{background-color: rgba(0,0,0,0.5);width:100%; height:100%; position: absolute; top:-100%;left:0;
+           text-align: center; line-height:240px;color:#fff;font-size:30px;transition:all .3s;-webkit-transition:all .3s}
+.staffList:hover .staffMask{top:0;}
+.contactcCont{margin-bottom:20px}
+.contactcCont h5{position: relative;font-size: 17px}
+.contactcCont h5:before{
+	 content: "";
+	 width:65px;
+	 height:4px;
+	 background:#0166ff;
+	 position: absolute;
+	 bottom:-5px;
+}
+.map{height:500px;}
+.map img{width:100%;height:100%;}                         

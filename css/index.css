@@ -1,0 +1,141 @@
+body{background:#f6f6f6;overflow-x: hidden;}
+.roll{background:#fff;width:100%;position:relative;z-index:29}
+.seekErrer{position:fixed; top:-66px; height:66px; line-height:66px; text-align: center;
+            width:100%;z-index:120;background:#7d08f5;
+            font-size:30px;color:#fff;}
+/* .seekIndex_navigation h1{float:left; width:250px; height:88px; background:url(../images/seekLogo.png); float:left; text-indent: -9999px} */
+
+.seekIndex_carousel{position:absolute; top:0;height:100%; width:100%;overflow-y:hidden; }
+.seekIndex_caption p{color:#000; font-size: 16px; margin-bottom:20px}
+.seekIndex_caption p b{color:#fff;font-size: 40px}
+.seekIndex_caption_left{text-align:left}
+.seekIndex_caption_right{text-align:right}
+.seekIndex_caption_Cont{transition:all 1s;}
+.seekIndex_caption{overflow:hidden;}
+.carousel-inner{height:100%;position: fixed;}
+.seekIndex_carousel_same{ width:100%; overflow: hidden; height:100%;background-size:cover;background-position: center;}
+.seekIndex_carousel1{background-image:url(../images/slide1.jpg)}
+.seekIndex_carousel2{background-image:url(../images/slide2.jpg)}
+.seekIndex_carousel3{background-image:url(../images/slide3.jpg)}
+.carousel-indicators li,.carousel-indicators .active{width:20px; height:20px;}
+
+/*品牌*/
+.seekIndex_brand{padding-top:40px; padding-bottom: 20px; background:#fff}
+.seekIndex_brand_Cont{margin-bottom:20px; text-align: center;}
+.seekIndex_brand_Cont h2{color:#007eff;}
+.seekIndex_brand_Bak{width:250px; height:250px; border:1px solid #007eff;
+                     border-radius:50%;cursor:pointer;
+                     margin:0 auto;}
+.seekIndex_brand_Bak:hover i{transform:rotate(360deg);-webkit-transform:rotate(360deg); }
+.seekIndex_brand_Bak i{display: block;margin:0 auto;width:150px; height:150px;
+                      transition:all .5s;margin-top:50px;
+                      -webkit-transition:all .5s;
+                       background-image:url(../images/guoGroup.png)}
+.seekIndex_brand_Bak i.seekIndex_brand_ico4{background-position:0 0;}
+.seekIndex_brand_Bak i.seekIndex_brand_ico5{background-position:12px -309px;}
+.seekIndex_brand_Bak i.seekIndex_brand_ico6{background-position:3px -154px;}
+/*品牌*/
+
+/*项目*/
+.seekIndex_project{margin-top:50px}
+.seekIndex_project_Cont{text-align: center; margin-bottom:20px}
+.seekIndex_project_Cont img{ height: auto;max-width: 100%;}
+.seekIndex_project_Cont p span{vertical-align: bottom;font-size:16px}
+.projectImg{margin:0 auto; max-width:310px;background-color:#fff;padding-bottom:10px; transition:all .5s;-webkit-transition:all .5s;}
+.projectList li{border-bottom:1px solid #ccc;padding:10px 0; }
+.projectImg:hover{-webkit-transform:translatey(-10px);transform:translatey(-10px);box-shadow: 1px 1px 10px 1px #ccc; }
+.codeguide{min-height:131px;position: relative; }
+.codeguide img{display: block;}
+.codeguide i{display: block;position: absolute;top:40px;width:62px; height:53px;
+            left:100px;background:url(../images/guoGroup.png);}
+.codeguide i.codeguide_ico9{background-position:90px 0}
+.codeguide i.codeguide_ico10{background-position:90px -57px}
+.codeguide i.codeguide_ico11{background-position:90px -111px}
+.codeguide i.codeguide_ico12{background-position:103px -224px}
+                                                                                 
+
+/*项目*/
+
+/*服务*/
+.seekIndex_service{height:600px;  margin-top:50px; overflow: hidden;}
+.seekIndex_service_cont{height:100%; background-image:url(../images/8.jpg);background-position: center;
+                        background-repeat: no-repeat;}
+.seekIndex_service_bn{padding-top: 50px}
+.seekIndex_service_bn p{color:#fff; font-size: 30px;}
+.seekIndex_service_p1{margin-top: 150px}
+.seekIndex_service_bn form{width:100%; border-radius:10px; background-color:rgba(222,222,222,0.5);
+                           height:500px; padding:30px 20px;}
+.seekIndex_service_form{margin-bottom:30px;overflow:hidden;}                          
+.seekIndex_service_form input{ height:50px; font-size:16px; text-indent:10px}
+.seekIndex_service_form .big{width:100%;}
+.seekIndex_service_form .small{width:31%;float:left;margin-right:3%;height:50px;}
+.seekIndex_service_form span{font-size: 16px;float:left;margin-top:12px}
+.seekIndex_service_form select{ height:50px;float:left;margin-right:3%; width:53%; font-size:16px;color:#a6a1a1;line-height:47px }
+.seekIndex_service_form textarea{height:140px; width:100%; padding:10px;font-size:16px}
+.seekIndex_service_form{text-align: center;}
+.seekIndex_service_form button{width:100px;}
+/*服务*/
+
+/*用户评价*/
+.seekIndex_userevaluation{text-align: center; background:#fff; padding:30px 0;}
+.userevaluation_title p{position: relative;font-size:20px}
+.userevaluation_title p:before{content:""; border-bottom:2px solid #ffe577; width:100px;
+                              position: absolute; bottom:-5px; left:45%;}
+.userevaluation_msg{margin:30px 0; font-size:30px;}
+.userevaluation_msg img{width:50px; height:50px;}
+.userevaluation_text{text-indent:60px}
+.selected{margin-top:20px;position: relative; left:20px;}
+.selected span{display: inline-block; border:2px solid #000; 
+               border-radius:5px; padding:10px 15px; cursor:pointer;
+               margin:0 10px;font-weight: bold;font-size:20px}
+.selected span:hover{background:yellow;color:#fff;border-color:yellow}               
+/*用户评价*/
+
+/*员工风采*/
+.seekIndex_staffstyle{margin: 50px 0;}
+.h2_title{text-align: center;  width:200px; margin:0 auto;margin-bottom: 30px; font-family: bold;position: relative;}
+.h2_title:before{content:""; border-bottom:2px solid #ffe577; width:50px;
+                              position: absolute; bottom:-5px; left:35%;}
+.staffstyleCont{background:#fff; position: relative; max-width:360px; margin:0 auto; transition:all .5s;}
+.staffstyleContTop{text-align: center;position:relative;overflow: hidden;height:240px;}
+.staffstyleContTop img{max-width:100%;height:auto;position:absolute; top:0; left:0;}
+.staffstyleCont p{padding:20px 0; text-align: center; font-size:26px}
+.staffstyleContMask{height:100%;background-color:rgba(0,0,0,0.7);
+                     position:absolute; top:0; left:0; width:100%;}                             
+.staffstyleContTop button{width:200px; height:50px; font-size:20px;
+                           position:absolute; top:50%; left:50%;
+                            margin-left:-100px; margin-top:-25px;
+                            display: none}
+.staffstyleCont:hover .staffstyleContMask{display:none;}
+.staffstyleCont:hover  p{color:#337ab7;}
+.staffstyleCont:hover button{display:block;}
+.staffstyleCont:hover{box-shadow: 1px 1px 10px 1px #ccc}
+/*员工风采*/
+
+
+/*行业资讯*/
+.seekIndex_industry{background:#fff; padding:30px 0; text-align: center; }
+.h2_title_P{font-size:20px}
+.industry_cont{margin-top:20px;max-width:360px; margin:0 auto;}
+.industry_cont p{color:#ccc;}
+.industry_Img{height:218px;position:relative;overflow:hidden;}
+.industry_Img img{max-width:360px;height:auto;position: absolute; top:0; left:0; transition:max-width .5s;-webkit-transition:max-width .5s}
+.industry_cont h4{color:#000;font-weight: bold}
+.industry_cont:hover h4{color:#0166ff;}
+.industry_cont img:hover{max-width:400px;}
+/*行业资讯*/
+
+/*合作伙伴*/
+.seekIndex_partner{margin-top: 50px}
+.partnerCont{width:1200px; margin:0 auto;}
+.friendship{overflow: hidden;}
+.friendshipCont{width:1100px;float:left; overflow: hidden;position:relative; height:100px;}
+.friendshipCont ul{padding:0; position: absolute; top:0; left:0; width:100%; height:100px}
+.friendshipCont ul li{width:200px;float:left; margin:0 10px;}
+.friendshipCont ul li img{width:100%; height:100px;} 
+.friendship span{display: block; width:50px;float:left; cursor:pointer; margin-top:25px; height:50px;
+                background-image:url(../images/guoGroup.png)}
+.friendship_left{background-position:90px -350px}
+.friendship_right{background-position:80px -293px}
+/*合作伙伴*/
+

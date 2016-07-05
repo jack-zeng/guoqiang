@@ -1,0 +1,93 @@
+*{font-family:微软雅黑}
+li{list-style: none}
+a,a:hover{text-decoration: none}
+.none{display: none}
+/*全局导航*/
+.seekIndex_navigation{overflow: hidden;position: fixed;width:100%; z-index:30;padding:10px 0;top:0;left:0;}
+.seekIndex_navigation_off{background:#0166ff;transition:all .5s;-webkit-transition:all .5s;}
+.seekIndex_navigation_off img{width:125px; height:44px;}
+.seekIndex_navigation ul{margin-top: 30px;}
+.seekIndex_navigation_off ul{margin-top: 10px;}
+.pcMenu li{float:left;color:#000; font-size:20px; margin-right:40px;}
+.seekIndex_navigation_off ul li{font-size:18px;}
+.seekIndex_navigation li a{color:#000; position: relative;  }
+.seekIndex_navigation li a:before{height:2px; background:#000;
+                          position:absolute;bottom:-4px;content:"";
+                          left:50%;right:50%;transition:all .3s;-webkit-transition:all .3s;}
+.seekIndex_navigation li a:hover:before{left:0;right:0;}
+.seekIndex_navigation_off ul li a,.seekIndex_navigation_off ul li{color:#fff;}
+.seekIndex_navigation_off ul li a:before{
+	                      height:2px; background:#fff;
+                          position:absolute;bottom:-4px;content:"";
+                          left:50%;right:50%;transition:all .5s;}
+.seekIndex_navigation li a:hover:before{left:0;right:0;}
+.navigationTop{overflow: hidden;}
+/*全局导航*/
+/*公司信息*/
+.seekIndex_company{padding:30px 0; background:#fff; margin-top:50px; text-align: center;}
+/*公司信息*/
+.guologo2{width:106px; height:106px;margin:0 auto; background:url(../images/guologo2.png)}
+
+/*适应性代码ipad*/
+@media all and (max-width:1201px){
+	.seekIndex_navigation ul li{margin-right:10px;font-size: 18px}
+	.culture ul li,.culture ul li.cutRight{width:100%;margin-bottom:30px;float:none;}
+	.cultureCont{left:285px;width:400px;font-size:18px}
+	.information_title{text-align: center;height:auto;}
+	.information_title time{position: static;}
+	.information_button{margin-top: 50px}
+	.information_button button{height:50px;font-size:18px;}
+	.loanList_img h4{font-size:22px;margin-bottom:20px}
+	.samll_ico_top{margin:0 auto;margin-top:20px;width:75%;}
+	.seekIndex_brand p{font-size:16px;}
+	.seekIndex_service_bn{padding-top:20px}
+	.seekIndex_service_bn p{font-size:20px}
+	.seekIndex_service_p1{margin-top:20px}
+	.seekIndex_service_bn form{height:auto;padding:10px;}
+	.seekIndex_service_form{margin-bottom:10px}
+	.partnerCont{width:760px;}
+	.friendshipCont{width:660px;}
+	.codeguide i{left:115px;top:50px;}    
+}
+/*适应性代码ipad*/
+
+/*适应性代码手机*/
+@media all and (max-width:750px){
+	.seekIndex_navigation{background:#0166ff}
+	.seekIndex_navigation img{width:125px; height:44px}
+	.information_banner,.information_banner,.enterprise_banner{margin-top: 64px;}
+	.seekIndex_navigation img.menuBut{width:44px; height:34px;margin-top:5px}
+	.navigationButtom li{height:40px; line-height:40px;}
+	.navigationButtom li a,.navigationButtom li{color:#fff;}
+	.seekTitle{margin-top:64px}
+	.loanList_img{width:300px;}
+	.loanList_img img{height:auto}
+	.loanDetailsBtn{text-align: center;float: none}
+	.samll_ico_top li{float:none;margin-bottom:10px}
+	.culture ul li{height: auto;text-align: center;}
+	.cultureImg{float:none;}
+	.cultureCont button,.cultureCont{position: static;}
+	.cultureCont{width:100%;}
+	.culture ul li{margin:0;}
+	.enterprise_nav{height:40px; line-height: 40px}
+	.company{margin-top: 10px;}
+	.culture ul li img{width: 300px; height:200px;}
+	.culture ul li{padding-bottom:10px;border-bottom: 1px solid #ccc;
+	              margin-bottom: 10px;}
+	.seekIndex_company{margin-top: 0}
+	.contactcCont h5:before,.seekIndex_navigation li a:before{display: none}
+	.loanDetails{margin-top: 80px}
+	.seekIndex_service_bn p,.seekIndex_service_p1 button,.enterprise_nav li a{font-size: 16px} 
+	.seekIndex_service_form input{height:40px}
+	.evaluate{padding:0;}
+	.selected{left:0;}
+	.partnerCont{width:300px}
+	.friendshipCont{width:200px;}
+	.friendshipCont ul li{margin:0;}
+}
+
+@media all and (max-width:321px){
+	.seekIndex_service_form select{width:51%;}
+}
+
+/*适应性代码手机*/

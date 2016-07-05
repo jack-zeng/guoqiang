@@ -1,0 +1,34 @@
+body{background:#f6f6f6}
+.seekTitle{margin-top:100px;}
+.seekTitle h2{padding-bottom:20px; border-bottom:3px solid #d0d0d0;position:relative;}
+.seekTitle h2:before{content:"";position:absolute;border-bottom:3px solid #06b5ff; bottom:-3px; width:200px;}
+.loan{margin-top:30px;}
+.loanList{background:#fff;margin-bottom:20px;padding:20px 10px 10px 10px;}
+.loanList_img{width:150px;margin:0 auto;text-align: center;}
+.loanList_img img{width:100%;height:150px;}
+.loanListTitle{border-bottom:1px solid #d0d0d0}
+.samll_ico{overflow: hidden;padding:0;}
+.samll_ico li{float:left;margin-right:20px;height:30px; line-height: 30px}
+.samll_ico li i{display:inline-block;background-image:url(../images/guoGroup.png);}
+.samll_ico li i.ico1{background-position:-220px -141px;width:20px; height:25px;}
+.samll_ico li i.ico2{background-position:-190px -168px;width:23px; height:18px;position:relative;top:3px;}
+.samll_ico li i.ico3{background-position:-220px -109px;width:21px; height:29px;}
+.samll_ico li span{vertical-align:top;padding-left:5px} 
+.samll_ico li strong{font-size:16px} 
+.loanListMsg{margin-top:20px;} 
+.loanButton{text-align: center;} 
+.loanListBody{color:#999999;}  
+.loanDetails{margin-top:120px}
+.loanDetailsTop{background: #fff}
+.loanDetailsTopTitle{padding:20px 0;  text-align: center; border-bottom: 1px solid #06b5ff}
+.loanDetailsTopTitle h2{margin-top:30px}
+.samll_ico_top{margin-top:40px}
+.loanDetailsTopCont{width:90%; margin:0 auto; padding:30px 0;overflow: hidden;}
+.loanDetailsTopContLeft{float:left;}
+.loanDetailsBtn{float:right;}
+.loanDetailsTopCont span{color:#337ab7;}
+.loanDetailsTopCont button{width:200px;}
+.loanDetailsBtn{text-align: right;margin-top: 50px}
+.loanDetailsBottom{background:#fff; margin-top:50px; padding:30px 0;}
+.loanDetailsBottomCont{width:90%; margin:0 auto;}
+.loanDetailsBottomCont img{width:100%;display:block;}
