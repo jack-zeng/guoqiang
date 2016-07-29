@@ -17,12 +17,12 @@
                           width:100%;left:0;}
 .company{margin-top:30px}
 .culture ul{overflow: hidden;padding:0;}
-.culture ul li{float:left;zoom:1;width:250px; position:relative; height:250px;margin:0 10px;overflow:hidden;cursor:pointer;}
+.culture ul li{float:left;zoom:1;width:250px;transition:all .5s; position:relative; height:250px;margin:0 10px;overflow:hidden;cursor:pointer;}
 .culture ul li img{width:250px;height:250px;} 
 .culture ul li.cutRight{width:580px;}
-.culture ul li.cutRight .cultureCont{left:285px;}
+/* .culture ul li.cutRight .cultureCont{left:285px;} */
 .cultureImg{float:left;z-index:10;position: relative;}
-.cultureCont{width:300px;position:absolute;height:100%;left:0;}
+.cultureCont{width:300px;position:absolute;height:100%;left:285px;}
 .cultureCont button{position:absolute; bottom:10px;width:100px;} 
 .cultureCont p{color:#999;} 
 .cultureP{margin-top:30px} 
